@@ -4,58 +4,36 @@
 }
 
 body {
-    margin:200px;
+    margin: 0;
     text-align: center;
     background-color: #1B244A;
     color: white;
     font-size: 40px;
 }
 
-h3{
-    margin-bottom:400px;
+h3 {
+    margin-bottom: 20px;
 }
 
+#home-score,
 #guest-score {
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
-    width: 155px;
-    margin:auto;
-    height: 120px;
+    width: 160px;
+    margin: auto;
     font-family: "timer";
-
-}
-
-#home-score{
- background: #0a0001;
-    font-size: 90px;
-    color: #F94F6D;
-    width: 155px;
-    margin: 20px;
-    height: 120px;
-    font-family: "timer";
-
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width:80%;
-    margin:50px;
+    justify-content: space-around; 
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.score-container {
-    display: flex;
-    align-items: center;
-}
-
-#one-btn,
-#two-btn,
-#three-btn,
-#guestone-btn,
-#guesttwo-btn,
-#guestthree-btn {
+button {
     padding: 9px;
     border: 1px solid white;
     border-radius: 5px;
@@ -64,4 +42,4 @@ h3{
     background-color: #1B244A;
     margin-top: 30px;
     font-family: "timer";
-    
+}
